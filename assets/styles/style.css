@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(./assets/img/image1.jpg);
+    background-image: url(../img/image1.jpg);
     background-position: 50% 80%;
     height: 14rem;
 }
@@ -85,4 +85,12 @@ h3{
 p{
     margin-bottom: 15px;
     text-indent: 1.5rem;
+}
+
+.contactUs p{
+    font-size: 1.3rem;
+}
+
+.contactUs a{
+    color: darkblue;
 }
