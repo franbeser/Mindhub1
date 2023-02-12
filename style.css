@@ -1,7 +1,44 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 175, 77);
+    background-color: rgb(255, 209, 111);
+    color: black;
+    font-family: cursive;
 }
 
+header {
+    background-image: url(./assets/img/image1.jpg);
+    height: 250px;
+    background-position-y: -200px;;
+    padding: 1rem;
+}
+
+header h1 {
+    background-color: transparent;
+    font-size: 4rem;
+    font-style: normal;
+}
+
+.title{
+    background-color: black;
+    height: 50px;
+    position: relative;
+}
+
+.title h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    display: block;
+   
+}
+
+.title img{
+    height: 100px;
+    background-color: black;
+    border: 10px, white;
+    position: absolute -100px;
+}
