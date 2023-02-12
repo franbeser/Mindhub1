@@ -34,6 +34,7 @@ body {
     right: 200px;
     scale: 250%;
     background-color: black;
+    
 }
 
 h2 {
@@ -42,15 +43,29 @@ h2 {
     font-weight: normal;
     position: absolute;
     left: 40%;
+    
 }
 
 .navbar {
     display: block;
     width: 200px;
     padding-right: 100px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 5rem;
     padding-left: 2rem;
+}
+
+.navbar a{
+    background-color: black;
+    color: orange;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+}
+
+.navbar a:hover{
+    background-color: orange;
+    color: black;
 }
 
 
