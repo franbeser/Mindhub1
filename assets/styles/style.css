@@ -34,7 +34,7 @@ body {
     right: 200px;
     scale: 250%;
     background-color: black;
-    
+
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
     font-weight: normal;
     position: absolute;
     left: 40%;
-    
+
 }
 
 .navbar {
@@ -61,7 +61,7 @@ h2 {
     margin-top: 10px;
 }
 
-.navbar a{
+.navbar a {
     background-color: black;
     color: orange;
     text-decoration: none;
@@ -70,7 +70,7 @@ h2 {
     height: 4rem;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: orange;
     color: black;
 }
@@ -78,34 +78,56 @@ h2 {
 .content {
     margin-left: 300px;
     position: absolute;
-    top: 300px;   
+    top: 300px;
 }
 
-h3{
+h3 {
     margin-bottom: 2px;
     font-size: 1.2rem;
     font-style: italic;
 }
 
-p{
+p {
     margin-bottom: 15px;
     text-indent: 1.5rem;
 }
 
-.contactUs p{
+.contactUs p {
     font-size: 1.3rem;
 }
 
-.contactUs a{
+.contactUs a {
     color: darkblue;
 }
 
-.content h3{
-    font-size: 25px;
+.content h3 {
+    font-size: 35px;
 }
 
 .content p {
     text-indent: 0;
     font-style: italic;
     text-decoration: underline;
+    font-size: 20px;
+}
+
+.content table {
+    text-align: left;
+    font-size: 20px;
+    width: 40rem;
+    row-gap: 10rem;
+    margin-top: 2rem;
+}
+
+.content table td {
+    padding: 7px;
+    ;
+}
+
+.content table th {
+    font-size: 20px;
+}
+
+.content table tbody .firstCol {
+    text-align: center;
 }
