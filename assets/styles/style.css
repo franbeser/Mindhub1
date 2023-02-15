@@ -47,20 +47,27 @@ h2 {
 }
 
 .navbar {
-    display: block;
-    width: 200px;
+    width: 310px;
     padding-right: 100px;
-    font-size: 1.2rem;
-    line-height: 5rem;
+    font-size: 1rem;
+    line-height: 4rem;
     padding-left: 2rem;
+}
+
+.navbar nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    margin-top: 10px;
 }
 
 .navbar a{
     background-color: black;
     color: orange;
     text-decoration: none;
-    padding: 0.5rem 0.8rem;
     border-radius: 1rem;
+    text-align: center;
+    height: 4rem;
 }
 
 .navbar a:hover{
@@ -68,10 +75,8 @@ h2 {
     color: black;
 }
 
-
-
 .content {
-    margin-left: 250px;
+    margin-left: 300px;
     position: absolute;
     top: 300px;   
 }
@@ -93,4 +98,14 @@ p{
 
 .contactUs a{
     color: darkblue;
+}
+
+.content h3{
+    font-size: 25px;
+}
+
+.content p {
+    text-indent: 0;
+    font-style: italic;
+    text-decoration: underline;
 }
