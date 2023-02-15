@@ -132,9 +132,52 @@ p {
     text-align: center;
 }
 
-.content .details p{
+.content .details p {
     text-decoration: none;
     text-indent: 0;
 }
 
+.rulesHeader {
+    text-align: center;
+}
 
+.rulesHeader p {
+    text-indent: 0;
+}
+
+.contactData {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rulesTitle {
+    font-weight: bold;
+}
+
+.rules dt {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.rules dd {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1em;
+
+}
+
+.rules dd>ol>li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ages {
+
+    list-style: lower-alpha;
+}
+
+.coachPermission {
+    padding-left: 2em;
+}
