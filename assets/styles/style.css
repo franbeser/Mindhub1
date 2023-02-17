@@ -29,9 +29,9 @@ body {
 }
 
 #logo {
-    height: 40px;
+    height: 7%;
     position: absolute;
-    right: 200px;
+    right: 20%;
     scale: 250%;
     background-color: black;
 
@@ -47,8 +47,7 @@ h2 {
 }
 
 .navbar {
-    width: 310px;
-    padding-right: 100px;
+    width: 20%;
     font-size: 1rem;
     line-height: 4rem;
     padding-left: 2rem;
@@ -68,6 +67,7 @@ h2 {
     border-radius: 1rem;
     text-align: center;
     height: 4rem;
+    
 }
 
 .navbar a:hover {
@@ -76,10 +76,11 @@ h2 {
 }
 
 .content {
-    margin-left: 300px;
+    margin-left: 25%;
     position: absolute;
     top: 300px;
-    width: 130vh;
+    width: 70%;
+    padding: 1rem;
 }
 
 h3 {
@@ -182,6 +183,28 @@ p {
     padding-left: 2em;
 }
 
-form {
-    width: 100%;
+.formContent {
+    margin-left: 20%;
+    position: absolute;
+    top: 300px;
+    width: 60%;
+    padding: 1rem;
+}
+
+
+#playerName, #playerSurname {
+width: 27%;
+}
+
+#city, #zipC {
+    width: 40%;
+}
+
+#streetAdress {
+    width: 75%;
+    margin-right: 1rem;
+}
+
+#birthDate, #gender {
+    width: 20%;
 }
