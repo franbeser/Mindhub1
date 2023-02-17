@@ -258,3 +258,24 @@ button {
     padding: 3px;
 
 }
+
+.stadiumsMap {
+    border: 2px solid black;
+    padding: 1rem;
+    align-content: center;
+}
+
+.stadiumsMap th {
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.stadiumsMap .southTH {
+    border: none !important;
+}
+
+.stadiumsMap caption {
+    border: 3px solid black;
+}
+
