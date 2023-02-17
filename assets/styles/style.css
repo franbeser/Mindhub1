@@ -67,7 +67,7 @@ h2 {
     border-radius: 1rem;
     text-align: center;
     height: 4rem;
-    
+
 }
 
 .navbar a:hover {
@@ -191,12 +191,31 @@ p {
     padding: 1rem;
 }
 
-
-#playerName, #playerSurname {
-width: 27%;
+.formContent p {
+    font-size: 17px;
+    margin: 0;
+    text-indent: 0;
 }
 
-#city, #zipC {
+.formContent label {
+    font-size: 15px;
+}
+
+.formContent input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+
+
+#playerName,
+#playerSurname {
+    width: 27%;
+}
+
+#city,
+#zipC {
     width: 40%;
 }
 
@@ -205,6 +224,37 @@ width: 27%;
     margin-right: 1rem;
 }
 
-#birthDate, #gender {
+#birthDate,
+#gender {
     width: 20%;
+}
+
+.formTitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.fSet {
+    margin-top: 1rem;
+}
+
+.signature p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+}
+
+fieldset {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+button {
+    background-color: black;
+    border-radius: 0.5rem;
+    color: orange;
+    margin-top: 2rem;
+    font-size: 20px;
+    padding: 3px;
+
 }
