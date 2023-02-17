@@ -181,3 +181,7 @@ p {
 .coachPermission {
     padding-left: 2em;
 }
+
+form {
+    width: 100%;
+}
