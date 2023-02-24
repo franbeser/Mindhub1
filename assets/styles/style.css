@@ -46,6 +46,12 @@ h2 {
 
 }
 
+.page {
+display: flex;
+column-gap: 3rem;
+margin-top: 1rem;
+}
+
 .navbar {
     width: 20%;
     font-size: 1rem;
@@ -76,11 +82,8 @@ h2 {
 }
 
 .content {
-    margin-left: 25%;
-    position: absolute;
-    top: 300px;
     width: 70%;
-    padding: 1rem;
+    margin-top: 1rem;
 }
 
 h3 {
